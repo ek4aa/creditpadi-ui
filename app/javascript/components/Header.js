@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
+  const navigate = useNavigate();
+
+  const handleClick = (route, data) => {
+    navigate(route, data);
+  }
+
   return (
     <header className="site_header">
       <nav className="container-lg d-flex justify-content-between m-auto">
@@ -27,7 +34,11 @@ function Header() {
               </a>
             </li>
             <li className="nav-item">
-              <button className="btn btn-warning rounded-pill text-light mx-3" type="button">
+              <button
+                className="btn btn-warning rounded-pill text-light mx-3"
+                type="button"
+                onClick={() => handleClick("/signup")}
+              >
                 Get Started
               </button>
             </li>

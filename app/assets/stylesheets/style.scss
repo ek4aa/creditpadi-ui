@@ -1,6 +1,4 @@
 .mainframe {
-  background-color: #002060;
-  color: white;
   height: 100vh;
 
   .site_header {
@@ -8,6 +6,8 @@
     font-size: 20px;
     padding: 2rem 0;
     font-family: 'Poppins';
+    background-color: #002060;
+    color: white;
 
     .brand {
       flex-shrink: 1;
@@ -47,7 +47,7 @@
 
           button {
             padding: 0.75rem 2rem;
-            font-size: 14px;
+            font-size: 16px;
           }
         }
       }
@@ -56,6 +56,8 @@
 
   .site_container {
     font-family: 'Montserrat';
+    background-color: #002060;
+    color: white;
 
     .banner-mockup {
       position: absolute;
@@ -87,6 +89,26 @@
           right: 1px;
           z-index: 2;
           padding: 0.75rem 2.5rem;
+        }
+      }
+    }
+  }
+
+  .signup-content {
+    .left-panel {}
+
+    .right-panel {
+      .social-sign-btn-group {}
+
+      .hr-area {
+        position: relative;
+
+        .hr-area-context {
+          font-size: 16px;
+          position: absolute;
+          top: -15px;
+          background-color: white;
+          padding: 0.25rem 1rem;
         }
       }
     }

@@ -37,12 +37,12 @@ function SiteContainer() {
                 className="form-control rounded-pill"
                 placeholder="Enter your phone number"
                 aria-label="Enter your phone number"
-                aria-describedby="button-addon2"
+                aria-describedby="button-getstarted"
               />
               <button
                 className="btn btn-warning rounded-pill text-light"
                 type="button"
-                id="button-addon2"
+                id="button-getstarted"
               >
                 Get Started
               </button>
