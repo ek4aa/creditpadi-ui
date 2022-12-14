@@ -1,10 +1,13 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
+
 import App from "./App";
 
 document.addEventListener("turbo:load", () => {
-  const root = createRoot(
-    document.body.appendChild(document.createElement("div"))
-  );
+  const mainElement = document.createElement("div");
+  mainElement.classList.add("mainframe");
+  mainElement.setAttribute("id", "root");
+
+  const root = createRoot(document.body.appendChild(mainElement));
   root.render(<App />);
 });
