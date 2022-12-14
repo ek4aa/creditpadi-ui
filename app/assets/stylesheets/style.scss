@@ -1,13 +1,13 @@
 .mainframe {
   height: 100vh;
+  background-color: #002060;
+  color: white;
 
   .site_header {
     line-height: 25px;
     font-size: 20px;
     padding: 2rem 0;
     font-family: 'Poppins';
-    background-color: #002060;
-    color: white;
 
     .brand {
       flex-shrink: 1;
@@ -56,8 +56,6 @@
 
   .site_container {
     font-family: 'Montserrat';
-    background-color: #002060;
-    color: white;
 
     .banner-mockup {
       position: absolute;
@@ -93,7 +91,9 @@
       }
     }
   }
+}
 
+.authframe {
   .signup-content {
     .left-panel {}
 

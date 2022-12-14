@@ -3,10 +3,10 @@ import { Header } from "../../components";
 
 function Home() {
   return (
-    <>
+    <div className="mainframe">
       <Header />
       <SiteContainer />
-    </>
+    </div>
   );
 }
 
