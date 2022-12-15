@@ -11,7 +11,13 @@ function Signup() {
   return (
     <div className="authframe">
       <div className="signup-content row g-0">
-        <div className="left-panel d-none d-md-block col-6 col-md-6"></div>
+        <div className="left-panel d-none d-md-block col-6 col-md-6">
+          <div className="brand my-auto">
+            <a className="navbar-brand" href="/">
+              Creditpadi
+            </a>
+          </div>
+        </div>
         <div className="right-panel col-12 col-md-6">
           <div className="container">
             <div className="row g-3 justify-content-end mx-1 my-auto">
@@ -30,13 +36,16 @@ function Signup() {
             </div>
             <div className="container p-5 m-auto">
               <form>
-                <div className="m-5">
+                <div className="my-5">
                   <h3 className="page-title text-center">
                     Sign Up for an account
                   </h3>
                 </div>
                 <div className="d-grid gap-4 social-sign-btn-group">
-                  <button type="button" className="btn btn-lg btn-outline-default">
+                  <button
+                    type="button"
+                    className="btn btn-lg btn-outline-default"
+                  >
                     <img
                       className="img-fluid float-start"
                       src="./assets/auth/google.png"
@@ -45,7 +54,10 @@ function Signup() {
                     />
                     <span className="m-auto">Sign Up with Google</span>
                   </button>
-                  <button type="button" className="btn btn-lg btn-outline-default">
+                  <button
+                    type="button"
+                    className="btn btn-lg btn-outline-default"
+                  >
                     <img
                       className="img-fluid float-start"
                       src="./assets/auth/phone.png"

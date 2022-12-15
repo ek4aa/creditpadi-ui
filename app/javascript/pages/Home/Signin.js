@@ -11,7 +11,13 @@ function Signin() {
   return (
     <div className="authframe">
       <div className="signup-content row g-0">
-        <div className="left-panel d-none d-md-block col-6 col-md-6"></div>
+        <div className="left-panel d-none d-md-block col-6 col-md-6">
+          <div className="brand my-auto">
+            <a className="navbar-brand" href="/">
+              Creditpadi
+            </a>
+          </div>
+        </div>
         <div className="right-panel col-12 col-md-6">
           <div className="container">
             <div className="row g-3 justify-content-end mx-1 my-auto">
@@ -32,9 +38,13 @@ function Signin() {
             </div>
             <div className="container p-5 m-auto">
               <form>
-                <div className="m-5 pt-5">
-                  <h1 className="page-title fw-bold text-center">Welcome Back</h1>
-                  <h3>Sign In your Creditpadi account</h3>
+                <div className="my-3 my-md-5 pt-5">
+                  <h1 className="page-title fw-bold text-center">
+                    Welcome Back
+                  </h1>
+                  <h3 className="text-center">
+                    Sign In your Creditpadi account
+                  </h3>
                 </div>
                 <div className="mb-3">
                   <input

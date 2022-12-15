@@ -102,9 +102,16 @@
       background-color: #002060;
     }
 
+    .left-panel {
+      .brand {
+        font-family: 'Poppins';
+        font-size: 26px;
+        font-weight: bold;
+        color: white;
+        padding: 3rem 2rem;
+      }
+    }
     .right-panel {
-      .social-sign-btn-group {}
-
       .hr-area {
         position: relative;
 
